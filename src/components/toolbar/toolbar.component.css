@@ -1,0 +1,35 @@
+.toolbar{
+  width: 160px;
+  height: 100vh;
+  padding: 0;
+  background: #372db4;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo{
+  height: 160px;
+  width: 100%;
+  background: gray;
+}
+
+.name{
+  height: 40px;
+  width: 100%;
+  background: white;
+}
+
+.btn-toolbar{
+  border-bottom: 1px solid white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+p{
+  margin: 0;
+}
