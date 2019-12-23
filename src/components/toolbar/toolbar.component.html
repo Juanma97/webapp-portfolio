@@ -1,11 +1,11 @@
 <mat-toolbar class="toolbar">
   <div class="photo"></div>
   <div class="name"><p>Juanma Perez</p></div>
-  <div class="btn-toolbar">
+  <div class="btn-toolbar" (click)="goToPage('home')">
     <mat-icon>home</mat-icon>
     <p>Home</p>
   </div>
-  <div class="btn-toolbar">
+  <div class="btn-toolbar" (click)="goToPage('about')">
     <mat-icon>home</mat-icon>
     <p>About me</p>
   </div>
